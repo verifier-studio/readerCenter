@@ -8,16 +8,12 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css">
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dolphin.css"> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/pure.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/pure.css"> -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css"> -->
 </head>
 <body>
-  <nav>
-    <a href="#/">EN</a>
-    <a href="#/">中文</a>
-  </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -26,8 +22,10 @@
       repo: 'https://github.com/verifier-studio/readerCenter',
 
       loadSidebar: true,
+      subMaxLevel: 2,
       loadNavbar: true,
-      // homepage: './docs/cn/南怀瑾书单.md',
+      // basePath: '/docs/cn/'
+      // homepage: '/docs/cn/README.md',
     }
   </script>
   <!-- Docsify v4 -->
